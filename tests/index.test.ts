@@ -1,5 +1,5 @@
 import { expect, test } from '@jest/globals';
-import defaultAwesomeFunction, { awesomeFunction } from '../src/index.js';
+import defaultAwesomeFunction, { awesomeFunction } from '../src';
 
 test('Should test default awesome function', () => {
   const expectedVal = 'I am the Default Awesome Function, fellow comrade! - Yousuf';
